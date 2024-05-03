@@ -1,0 +1,60 @@
+# Visual Studio project files
+*.vbproj
+*.fsproj
+
+# Visual Studio user files
+*.suo
+*.user
+*.resuser
+*.vshost.exe
+
+# Visual Studio Code user files
+settings.json
+tasks.json
+keybindings.json
+code-workspace.json
+
+# Binaries and outputs
+bin/*
+obj/*
+publish/*
+.vs/*
+
+# Tests
+test/*
+*.testsettings
+
+# NuGet packages
+packages/*
+
+# Documentation
+docs/*
+
+# Third-party libraries
+lib/*
+vendor/*
+
+# Local storage
+*.db
+*.log
+
+# IDE-specific temp files
+*.tmp
+*.TMP
+*.bak
+*.cache
+*.temp
+
+# External tools and dependencies
+*.ps1
+*.psm1
+*.bat
+*.cmd
+*.exe
+*.dll
+*.pdb
+*.ilk
+
+# Miscellaneous
+*.gitignore
+*.git
