@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ReserveService.cs~RF1bbb8626.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LinqKit.Microsoft.EntityFrameworkCore" Version="8.1.5" />
+    <PackageReference Include="LinqKitEFCore.Extension.AutoBuildPredicate" Version="0.5.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\car.db\w.sale.car.db.csproj">
+      <CopyLocalSatelliteAssemblies></CopyLocalSatelliteAssemblies>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\car.exceptions\w.sale.car.exceptions.csproj" />
+    <ProjectReference Include="..\car.model\w.sale.car.model.csproj">
+      <CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
+    </ProjectReference>
+  </ItemGroup>
+
+</Project>
